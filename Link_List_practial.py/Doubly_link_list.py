@@ -6,7 +6,7 @@ class Node:
 
 class DoublyLinkList:
     def __init__(self):
-        self.head = None
+         self.head = None
 
     def InsertNode(self, value):
         newNode = Node(value)
@@ -52,7 +52,7 @@ class DoublyLinkList:
             while temp != None:
                 count = count + 1
                 temp = temp.next
-                
+
             print("count of the item in list is", count)
     
     def search(self,val):
