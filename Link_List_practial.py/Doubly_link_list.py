@@ -87,7 +87,7 @@ class DoublyLinkList:
                 
                 temp=temp.next
         
-    def inserBefore(self,key,value):
+    def insertBefore(self,key,value):
         newNode=Node(value)
         if self.head == None:
             self.head = newNode
@@ -214,7 +214,7 @@ while True:
               print()
               k=input("enter value from list ")
               i=input("enter the value")
-              dll.inserBefore(k,i)
+              dll.insertBefore(k,i)
              
               print()
         case 8:
