@@ -163,6 +163,7 @@ class DoublyLinkList:
 
 dll=DoublyLinkList()
 while True:
+    print()
     print("1 Insert the node")
     print("2 Forward Print ")
     print("3 Backword print ")
