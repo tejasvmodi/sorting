@@ -128,7 +128,6 @@ class DoublyLinkList:
                         temp.next.prev=temp.prev
                         del temp
                         break
-                    print("the value is deleted")
                     temp=temp.next
                 else:
                     print("no value deleted in list ")
@@ -182,59 +181,61 @@ while True:
                 i=input("enter the value")
                 dll.InsertNode(i)
             print()
-            print()
-            print()
+            
         case 2:
+            print()
             dll.forwardprint()
             print()
-            print()
-            print()
+            
         case 3:
+            print()
             dll.backwordPrint()
             print()
-            print()
-            print()
+            
         case 4:
+              print()
               dll.count()
               print()
-              print()
-              print()
+             
         case 5:
+            print()
             i=input("enter the value")
             dll.search(i)
             print()
-            print()
-            print()
+            
         case 6: 
-             k=input("enter key")
+             print()
+             k=input("enter the value from list")
              i=input("enter the value")
              dll.insertAfter(k,i)
-             print()
-             print()
+            
              print()
         case 7:
-              k=input("enter key")
+              print()
+              k=input("enter value from list ")
               i=input("enter the value")
               dll.inserBefore(k,i)
-              print()
-              print()
+             
               print()
         case 8:
+             print()
              i=input("enter the value")
              dll.deletebyKey(i)
-             print()
-             print()
+           
              print()
         case 9:
-             i=int(input("enter the value"))
+             print()
+             i=int(input("enter the position"))
              dll.deletebyposition(i)
-             print()
-             print()
+            
              print()
         case 10: 
             exit()
         case default:
+            print()
+            print()
             print("you enter other keyword")
+            exit()
 
 
 
