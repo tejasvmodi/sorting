@@ -69,6 +69,8 @@ class DoublyLinkList:
                 
             if flag==0 :
                 print("value not in list ")
+
+
     def insertAfter(self,key,value):
         newNode=Node(value)
         if self.head == None:
@@ -126,6 +128,7 @@ class DoublyLinkList:
                         temp.next.prev=temp.prev
                         del temp
                         break
+                    print("the value is deleted")
                     temp=temp.next
                 else:
                     print("no value deleted in list ")
@@ -156,6 +159,7 @@ class DoublyLinkList:
                         temp.prev.next = temp.next
                     if temp.next != None:
                         temp.next.prev = temp.prev
+                    print("the value is deleted")
                     del temp
 
 dll=DoublyLinkList()
@@ -222,7 +226,7 @@ while True:
              print()
              print()
         case 9:
-             i=input("enter the value")
+             i=int(input("enter the value"))
              dll.deletebyposition(i)
              print()
              print()
