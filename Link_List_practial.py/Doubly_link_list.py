@@ -165,21 +165,21 @@ dll=DoublyLinkList()
 while True:
     print()
     print("1 Insert the node")
-    print("2 Forward Print ")
-    print("3 Backword print ")
+    print("2 Forward Print")
+    print("3 Backword print")
     print("4 Count the item in list")
-    print("5 search the item in list ")
-    print("6 insert after the ")
-    print("7 insert before the ")
-    print("8 Delete by key ")
-    print("9 Delete by position ")
-    print("10 exit ")
-    choice=int(input("enter your choice"))
+    print("5 search the item in list")
+    print("6 insert after the")
+    print("7 insert before the")
+    print("8 Delete by key")
+    print("9 Delete by position")
+    print("10 exit")
+    choice=int(input("enter your choice "))
     match choice:
         case 1:
-            c=int(input("count of element"))
+            c=int(input("Number of element "))
             for i in range(0,c):
-                i=input("enter the value")
+                i=input("Enter the value ")
                 dll.InsertNode(i)
             print()
             
@@ -200,33 +200,33 @@ while True:
              
         case 5:
             print()
-            i=input("enter the value")
+            i=input("Enter the value ")
             dll.search(i)
             print()
             
         case 6: 
              print()
-             k=input("enter the value from list")
-             i=input("enter the value")
+             k=input("Enter the value from list ")
+             i=input("Enter the value ")
              dll.insertAfter(k,i)
             
              print()
         case 7:
               print()
-              k=input("enter value from list ")
-              i=input("enter the value")
+              k=input("Enter value from list ")
+              i=input("Enter the value ")
               dll.insertBefore(k,i)
              
               print()
         case 8:
              print()
-             i=input("enter the value")
+             i=input("Enter the value ")
              dll.deletebyKey(i)
            
              print()
         case 9:
              print()
-             i=int(input("enter the position"))
+             i=int(input("Enter the position "))
              dll.deletebyposition(i)
             
              print()
@@ -235,7 +235,7 @@ while True:
         case default:
             print()
             print()
-            print("you enter other keyword")
+            print("Please select the number between 1 to 10")
             exit()
 
 
