@@ -52,7 +52,7 @@ class DoublyLinkList:
             while temp != None:
                 count = count + 1
                 temp = temp.next
-
+                
             print("count of the item in list is", count)
     
     def search(self,val):
