@@ -69,4 +69,6 @@ def main():
                 p=int(input("enter the previous number "))
                 c.insertbefore(i,p)
                 c.display()
+            case 10:
+                exit()
 main()
